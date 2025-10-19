@@ -81,7 +81,7 @@
 }
 
     .btn {
-      background: #e5bb7c;
+      background: #e0942a;
       color: white;
       padding: 14px 32px;
       border: none;
@@ -94,7 +94,7 @@
       align-items: center;
       gap: 8px;
     }
-    .btn:hover { background: #ba965f; }
+    .btn:hover { background: #9a6419; }
 
 
 
@@ -144,7 +144,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
-  color: #e5bb7c;
+  color: #e0942a;
 }
 
 /* The Wedding Of */
@@ -169,7 +169,7 @@
 .name {
   font-family: 'Playfair Display', serif;
   font-size: 40px;
-  color: #e5bb7c;
+  color: #e0942a;
   z-index: 2;
 }
 
@@ -215,8 +215,8 @@
     /* Countdown */
     .countdown { display: flex; gap: 15px; margin: 20px 0; }
     .countdown div {
-      background: #fff; /* warna #e5bb7c tapi transparan */
-      color: #e5bb7c;                          /* biar teks tetap jelas */
+      background: #fff; /* warna #e0942a tapi transparan */
+      color: #e0942a;                          /* biar teks tetap jelas */
       padding: 10px 15px;
       border-radius: 10px;
       font-size: 18px;
@@ -226,7 +226,7 @@
     /* Button */
     .btn-main {
       background: #fff;
-      color: #e5bb7c;
+      color: #e0942a;
       padding: 12px 24px;
       border: none;
       border-radius: 25px;
@@ -235,7 +235,7 @@
       margin-top: 15px;
     }
 .btn-main:hover {
-  background: #ba965f;
+  background: #9a6419;
   color: #fff; /* teks jadi putih saat hover */
 }
 
@@ -255,7 +255,7 @@
       height: 50px;
       border-radius: 50%;
       border: none;
-      background: #e5bb7c;
+      background: #e0942a;
       color: white;
       font-size: 22px;
       cursor: pointer;
@@ -264,13 +264,13 @@
     }
 
     .nav button:hover {
-      background: #ba965f;
+      background: #9a6419;
     }
 
 /* ===== SECTION UCAPAN ===== */
 #wedding-intro {
   position: relative;
-  background: #e5bb7c;       /* warna dasar */
+  background: #e0942a;       /* warna dasar */
   color: #fff;
   padding: 60px 45px;
   text-align: center;
@@ -352,7 +352,7 @@
 
 /* Card dengan frame setengah lingkaran */
 .acara-card {
-  background: #e5bb7c;
+  background: #e0942a;
   margin: 30px 0;
   padding: 30px 20px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
@@ -400,7 +400,7 @@
 
 .resepsi-maps-btn {
   background: #fff;
-  color: #e5bb7c;
+  color: #e0942a;
   border: none;
   padding: 10px 20px;
  border-radius: 9999px;
@@ -413,7 +413,7 @@
 }
 
 .resepsi-maps-btn:hover {
-  background: #ba965f;
+  background: #9a6419;
   color: #fff;   /* ganti warna teks pas hover */
 }
 
@@ -597,7 +597,7 @@ section {
   height: 45px;
   border-radius: 50%;
   background-color: #fff;    /* bulat putih */
-  color: #e5bb7c;            /* ikon merah elegan */
+  color: #e0942a;            /* ikon merah elegan */
   font-size: 22px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -605,7 +605,7 @@ section {
 }
 
 .couple-sosmed a:hover {
-  background-color: #e5bb7c; /* hover bulat merah */
+  background-color: #e0942a; /* hover bulat merah */
   color: #fff;               /* ikon jadi putih */
 }
 
@@ -635,7 +635,7 @@ section {
 
 /* Frame setengah lingkaran atas */
 .love-story-frame {
-  background: #e5bb7c;
+  background: #e0942a;
   margin: 30px 0;
   padding: 30px 20px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
@@ -696,7 +696,7 @@ section {
 /* ===== SECTION HADIAH + UCAPAN ===== */
 #hadiah-ucapan {
   position: relative;
-  background: #e5bb7c;
+  background: #e0942a;
   padding: 60px 20px 120px;
   text-align: center;
   overflow: hidden;
@@ -783,14 +783,14 @@ section {
   padding: 6px 14px;
   border: none;
   border-radius: 8px;
-  background: #e5bb7c; 
+  background: #e0942a; 
   color: #fff;
   font-size: 14px;
   cursor: pointer;
   transition: background 0.3s;
 }
 .copy-btn:hover {
-  background: #ba965f;
+  background: #9a6419;
 }
 .hadiah-bottom {
   margin-top: 10px;
@@ -839,7 +839,7 @@ section {
 }
 
 .ucapan-maps-form textarea:focus {
-  border-color: #ba965f;
+  border-color: #9a6419;
   outline: none;
 }
 
@@ -875,7 +875,7 @@ section {
 .ucapan-maps-form input:focus,
 .ucapan-maps-form select:focus,
 .ucapan-maps-form textarea:focus {
-  border-color: #ba965f;
+  border-color: #9a6419;
   outline: none;
 }
 
@@ -932,7 +932,7 @@ section {
 }
 
 .ucapan-kehadiran.tidakhadir {
-  color: #e5bb7c; /* merah */
+  color: #e0942a; /* merah */
 }
 
 .ucapan-teks {
@@ -968,14 +968,14 @@ section {
   border: none;
   border-radius: 6px;
   background: #fff;
-  color: #e5bb7c;
+  color: #e0942a;
   font-size: 14px;
   font-family: 'Playfair Display', serif;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
 }
 .ucapan-maps-btn:hover {
-  background: #ba965f;
+  background: #9a6419;
   color: #fff;
 }
 
@@ -1117,7 +1117,7 @@ section {
 .penutup-nama {
   font-family: 'Great Vibes', cursive;
   font-size: 48px;
-  color: #e5bb7c; /* bisa disesuaikan warnanya */
+  color: #e0942a; /* bisa disesuaikan warnanya */
 }
 
 /* ===== BUNGA PEMISAH DI PENUTUP ===== */
@@ -1152,7 +1152,7 @@ section {
 
 /* ===== FOOTER ===== */
 #footer {
-  background: #e5bb7c;   /* warna footer */
+  background: #e0942a;   /* warna footer */
   padding: 50px 30px;
   font-family: 'Poppins', sans-serif;
   color: #fff;           /* teks putih */
