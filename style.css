@@ -515,17 +515,17 @@ section {
   /* top: 6%; */
   transform: translateY(-50%);
   height: 100%;       /* tinggi relatif section */
-  max-height: 1000px; /* batasi biar nggak terlalu besar */
+  /* max-height: 1000px;  batasi biar nggak terlalu besar */
   z-index: 0;        /* di belakang konten */
   opacity: 0.9;
 }
 
 .bunga-kiri {
-  left: -15px; /* geser 60px keluar ke kiri */
+  left: -5px; /* geser 60px keluar ke kiri */
 }
 
 .bunga-kanan {
-  right: -15px; /* geser 60px keluar ke kanan */
+  right: -5px; /* geser 60px keluar ke kanan */
   transform: translateY(-50%) scaleX(-1); /* dibalik agar simetris */
 }
 
