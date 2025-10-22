@@ -512,7 +512,7 @@ section {
 /* bunga samping */
 .bunga-samping {
   position: absolute;
-  /* top: 6%; */
+  top: 2%; /**/
   transform: translateY(-50%);
   height: 100%;       /* tinggi relatif section */
   /* max-height: 1000px;  batasi biar nggak terlalu besar */
@@ -622,7 +622,7 @@ section {
 #love-story {
   position: relative;
   background: url("bglovestory.jpg") no-repeat center center/cover;
-  background-color: rgba(255,255,255,0.5); /* putih transparan di atas bg */
+  /* background-color: rgba(255,255,255,0.5);  putih transparan di atas bg */
   background-blend-mode: overlay; /* bisa coba lighten, multiply, soft-light */
   padding: 60px 20px;
   text-align: center;
