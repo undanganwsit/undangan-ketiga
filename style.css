@@ -521,11 +521,11 @@ section {
 }
 
 .bunga-kiri {
-  left: -35px; /* geser 60px keluar ke kiri */
+  left: -15px; /* geser 60px keluar ke kiri */
 }
 
 .bunga-kanan {
-  right: -35px; /* geser 60px keluar ke kanan */
+  right: -15px; /* geser 60px keluar ke kanan */
   transform: translateY(-50%) scaleX(-1); /* dibalik agar simetris */
 }
 
