@@ -311,30 +311,26 @@
 
 
 
-/* ===== BUNGA PEMISAH ===== */
+/* ===== PEMISAH BUNGA DI ANTARA SECTION ===== */
 .section-divider {
   position: relative;
   width: 100%;
-  height: 120px;
-  margin: 0;
+  height: 0; /* tidak ganggu layout */
+  background: transparent;
+  z-index: 5;
 }
 
 .section-divider img {
   position: absolute;
-  top: 0%;
   left: 50%;
-  transform: translate(-50%, 50%); /* mulai agak ke bawah */
-  width: 100%; /* Ukuran bunga pemisah */
+  top: 0;
+  transform: translate(-50%, -50%); /* setengah ke atas, setengah ke bawah */
+  width: 100%;
   max-width: 700px;
-  opacity: 0;
-  transition: all 1s ease-out; /* transisi halus */
+  height: auto;
+  z-index: 6;
+  pointer-events: none; /* biar ga ganggu klik elemen lain */
 }
-
-.section-divider img.show {
-  transform: translate(-50%, -50%); /* naik ke tengah */
-  opacity: 1;
-}
-
 
 
 
